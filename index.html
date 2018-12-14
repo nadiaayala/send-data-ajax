@@ -1,32 +1,29 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>JavaScript &amp; jQuery - Chapter 8: Ajax &amp; JSON - .post()</title>
-    <link rel="stylesheet" href="c08.css" />
-  </head>
-  <body>
-
-    <header>
-      <h1>THE MAKER BUS</h1>
-    </header>
-
-    <section id="content">
-      <div class="half">
-        <img src="img/register-circuitboard.jpg" alt="circuit board" />
-      </div>
-      <div class="half">
-        <form id="register" action="register.php" method="post">
-          <h2>Register</h2>
-          <label for="name">Username</label><input type="text" id="name" name="name" />
-          <label for="pwd">Password</label><input type="password" id="pwd" name="pwd" />
-          <label for="email">Email</label><input type="email" id="email" name="email" />
-          <input type="submit" value="Join" />
-        </form>
-      </div>
-    </section>
-
-    <script src="js/jquery-1.11.0.min.js"></script>
-    <script src="js/scripts.js"></script>
-
-  </body>
+<head>
+<title>Registration Form Using jQuery - Demo Preview</title>
+<meta name="robots" content="noindex, nofollow">
+<!-- Include CSS File Here -->
+<link rel="stylesheet" href="css/style.css"/>
+<!-- Include JS File Here -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/registration.js"></script>
+</head>
+<body>
+<div class="container">
+<div class="main">
+<form class="form" method="post" action="#">
+<h2>Create Registration Form Using jQuery</h2>
+<label>Name :</label>
+<input type="text" name="dname" id="name">
+<label>Email :</label>
+<input type="text" name="demail" id="email">
+<label>Password :</label>
+<input type="password" name="password" id="password">
+<label>Confirm Password :</label>
+<input type="password" name="cpassword" id="cpassword">
+<input type="button" name="register" id="register" value="Register">
+</form>
+</div>
+</body>
 </html>
